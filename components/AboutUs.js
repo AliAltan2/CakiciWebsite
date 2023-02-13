@@ -9,6 +9,7 @@ function AboutUs() {
       <div className="flex-col items-center">
         <div className="w-[1200px] h-[800px] bg-gray-300">
           <p className=" text-right text-lg">Burada ne yaziyosa iste</p>
+          {/*comment for git*/}
         </div>
       </div>
     </div>
