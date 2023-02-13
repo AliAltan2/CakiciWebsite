@@ -16,6 +16,7 @@ function Header() {
           fill={true}
           style={{ objectFit: "contain", objectPosition: "left" }}
         />
+        <p3>50. Yil</p3>
       </div>
 
       {/*Middle menu */}
@@ -46,21 +47,21 @@ function Header() {
       </div>
 
       {/*Right Menu*/}
-      <div className="flex items-center md:border-2 rounded-full py-2">
+      <div className="flex items-center md:border-2 rounded-full py-1 space-x-2">
         <input
-          className="pl-5 bg-transparent outline-none"
+          className="pl-5 bg-transparent outline-none text-sm"
           type="text"
           placeholder="Aradiginizi buraya yazin"
         />
-        <SearchIcon className="hidden md:inline-flex h-8 bg-[#8B0000] text-white rounded-full p-2 cursor-pointer" />
+        <SearchIcon className="hidden md:inline-flex h-6 bg-[#8B0000] text-white text-sm rounded-full p-1 cursor-pointer " />
 
-        <button class="absolute top-3 right-0 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-1 px-1 border border-gray-400 rounded shadow">
+        <button class="absolute top-16 right-0 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-0.5 px-0.5 border border-gray-400 rounded shadow">
           EN
         </button>
-        <button class="absolute top-3 right-10 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-1 px-1 border border-gray-400 rounded shadow">
+        <button class="absolute top-16 right-10 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-0.5 px-0.5 border border-gray-400 rounded shadow">
           TR
         </button>
-        <button class="absolute top-3 right-20 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-1 px-1 border border-gray-400 rounded shadow">
+        <button class="absolute top-16 right-20 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-0.5 px-1 border border-gray-400 rounded shadow">
           IT
         </button>
       </div>

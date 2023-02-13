@@ -12,7 +12,7 @@ function MainPage() {
         <h2 className="text-white text-bold uppercase tracking-[5px] p-2 text-center">
           Plan 34 Istanbul
         </h2>
-        <button class="bg-gray-500 hover:bg-gray-600 text-gray-800 font-semibold py-2 px-4 border rounded shadow">
+        <button className="bg-gray-500 hover:bg-gray-600 text-gray-800 font-semibold py-2 px-4 border rounded shadow">
           Proje Detayi
         </button>
         <motion.img
