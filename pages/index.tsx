@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import MainPage from "../components/MainPage";
 import AboutUs from "../components/AboutUs";
+import Contact from "../components/Contact";
 const Home: NextPage = () => {
   return (
     <div className="">
@@ -21,8 +22,11 @@ const Home: NextPage = () => {
       <section id="MainPage" className="">
         <MainPage />
       </section>
-      <section>
+      <section id="AboutUs">
         <AboutUs />
+      </section>
+      <section id="Contact">
+        <Contact />
       </section>
       {/*Projects proper page*/}
     </div>
